@@ -1,0 +1,33 @@
+  
+  .carousel .carousel-inner {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos del carrusel */
+  }
+  
+.carousel .carousel-item img {
+    padding: 15px;
+    width: 200px;
+  }
+  
+.carousel-control-prev,.carousel-control-next {
+    /* Estilos para los botones de control del carrusel */
+  }
+  
+.carousel-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea el carrusel a la derecha */
+  }
+  
+  .black-background {
+    background-color: black;
+  }
+  .zoom {
+    transition: 1s;
+}
+.zoom:hover {
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+}
+.center{
+    justify-content: center;
+}
